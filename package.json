@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@sumsolution/vite-plugin-svg-to-font": "^1.0.3",
+    "sass": "^1.94.2",
     "vite": "^7.2.4",
     "vite-plugin-include-html": "^1.0.0",
     "vite-plugin-static-copy": "^3.1.4"

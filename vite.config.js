@@ -4,6 +4,12 @@ import { resolve } from "path";
 import vitePluginSVGToFont from "@sumsolution/vite-plugin-svg-to-font";
 
 export default defineConfig({
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "./src"),
+      "@styles": resolve(__dirname, "./styles"),
+    },
+  },
   plugins: [
     includeHtml(),
     {
