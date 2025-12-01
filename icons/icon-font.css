@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: 'icon-font';
+  src: url('/icons/icon-font.eot');
+  src: url('/icons/icon-font.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/icons/icon-font.woff')  format('woff'), /* Pretty Modern Browsers */
+       url('/icons/icon-font.ttf')   format('truetype'), /* Safari, Android, iOS */
+       url('/icons/icon-font.svg#icon-font') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-font {
+  display: inline-block;
+  font: normal normal normal 24px/1 icon-font;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.service-icon:before {
+  content: "";
+}
+
+.test:before {
+  content: "";
+}
+
+  
