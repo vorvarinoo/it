@@ -17,16 +17,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.service-icon:before {
+.play-icon:before {
   content: "";
 }
 
-.test:before {
+.service-icon:before {
   content: "";
 }
 
-.web-icon:before {
+.test:before {
   content: "";
+}
+
+.web-icon:before {
+  content: "";
 }
 
   
